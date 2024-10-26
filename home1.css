@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0; 
+    background-image: url("monalisa.jpg");
+    background-size: cover; 
+    background-position: center; 
+}
+
+body {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    color: white; 
+}
+
+.container {
+    text-align: center; 
+    backdrop-filter: blur(8px); 
+    padding: 40px;
+    border-radius: 15px; 
+    background: rgba(0, 0, 0, 0.6); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 600px; 
+    width: 90%; 
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif; 
+    font-size: 50px; 
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px; 
+    margin: 10px 0 20px; 
+}
+
+.text-input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 40px; 
+    border: none;
+    font-size: 16px; 
+}
+
+.generate-button {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    color: #fff;
+    background-color: #de560d;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0, 0, 0, 1);
+}
+
+.generate-button:hover {
+    background:linear-gradient(to left,#cd632a,#e86219);
+    color:#fff;
+    transition: ease-in-out 6s;
+}
